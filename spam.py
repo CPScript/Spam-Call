@@ -9,7 +9,7 @@ try:
 	jml = int(input("SpamCall-Count -> "))
 	print()
 except:
-	print("\n\t* Only Number *")
+	print("\n\t* Use Numbers Only! *")
 	sys.exit()
 	
 url = "https://www.citcall.com/demo/misscallapi.php" # THIS IS WHAT IS USED TO SPAM CALL THE NUMBER... btw <3
