@@ -2,7 +2,7 @@ import time, re, sys
 from requests import Session
 s = Session()
 
-print("Welcome!")
+print("Welcome! /nThis tool has 30 a second delay per call so the provider doesn't linint calls, you can change this in line `33`")
 print("User input below!")
 try:
 	no = int(input("(Phone-Number) -> "))
